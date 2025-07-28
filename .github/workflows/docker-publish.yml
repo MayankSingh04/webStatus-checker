@@ -35,7 +35,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           # Use the public IP of your EC2 instance
-          host: 13.204.46.213
+          host: 13.233.160.228
           # The username for Amazon Linux
           username: ec2-user
           # The private key we stored in GitHub Secrets
